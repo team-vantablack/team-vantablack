@@ -1,0 +1,559 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Play', sans-serif;
+}
+
+.header {
+    display: flex;
+    flex-flow: row wrap;
+    background: black;
+     align-items: center; 
+    justify-content: space-around;
+}
+
+.header__logo a img {
+    height: 6.3rem;
+}
+
+.header__navbar__menu ul {
+    text-align: center;
+}
+
+.header__navbar__menu ul li{
+    display: inline-block;
+}
+
+.header__navbar__menu ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 2rem;
+    padding: .5rem;
+}
+
+
+/* end of header */
+
+
+/* main starts here */
+
+.brand {
+    background: url('../img/red_black_stripes.jpg');
+    color: white;
+    text-align: center;
+}
+
+.brand h1 {
+    margin: 0;
+    font-size: 14rem;
+}
+
+.brand h2 {
+    margin: 0;
+    font-size: 7rem;
+    padding-bottom: 1rem;
+    border-bottom: 1rem solid red;
+}
+
+
+ /* start of about team summary */
+
+ .team-summary {
+    border-bottom: 1rem solid red;
+}
+
+.team-summary h1{
+    font-size: 2.5rem;
+    color: black;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.team-summary__about {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+}
+
+.team-summary__image img {
+    height: 20rem;
+    margin: 1rem 1rem;
+}
+
+.team-summary__description ul li {
+    list-style-type: square;
+    font-size: 1.2rem;
+    text-align: start;
+    margin: 1rem 3rem;
+}
+
+/* end of about f1 */
+
+/* start of team achievements */
+
+.team-achievements {
+    border-bottom: 1rem solid red;
+}
+
+.team-achievements h1{
+    font-size: 2.5rem;
+    color: black;
+    text-align: center;
+}
+
+.team-achievement__images {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+}
+
+
+.team-achievement__image img {
+    height: 20rem;
+}
+
+.team-achievement__image p {
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+/* end of team achievements */
+
+/* Car */
+
+#car{
+    position: relative;
+    background: url("../img/Car_white.jpg");
+    height: 40rem;
+    background-size: cover;        
+    background-position: center;        
+}
+
+.car--heading {
+    position: absolute;
+    top: 28rem;
+    right: 4rem;
+    font-size: 5rem;
+    color: rgb(199, 17, 17);
+    font-style: italic;
+}
+/* end of car 
+
+
+/* start of team */
+.team {
+    background: rgb(199, 17, 17);
+}
+
+.team h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: white;
+    font-style: italic;
+}
+
+.team--members {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+.team--member {
+    text-align: center;
+    color: white;
+}
+
+.team--member img {
+    height: 22rem;
+    /* width: 22rem; */
+    background: white;
+    margin: 1rem;
+    border: .3rem solid rgb(126, 2, 2);
+    border-radius: 16rem;
+}
+
+.team--member__name {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: .2rem;
+    margin-bottom: 0;
+    letter-spacing: .1rem;
+}
+
+.team--member__role {
+    font-size: 1.2rem;
+    margin-bottom: 4rem;
+}
+
+/* end of team */
+
+
+
+
+/* start of about f1 */
+
+.f1-info {
+    border-top: 1rem solid red;
+}
+
+.f1-info h1{
+    font-size: 2.5rem;
+    color: black;
+    text-align: center;
+    margin: 1rem;
+}
+
+.about-f1 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.about-f1__image a img {
+    height: 12rem;
+}
+
+.about-f1__description ul li {
+    list-style-type: square;
+    font-size: 1.2rem;
+    text-align: start;
+}
+
+/* end of about f1 */
+
+
+/* start of sponsor */
+.our_sponsor h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 2rem;
+    border-top: 1rem solid red;
+    padding-top: 1rem;
+}
+
+.sponsors {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+.sponsor {
+    border: 5px solid red; 
+    margin: 2rem;
+    padding: 2rem;
+}
+
+.sponsor img {
+    height: 24rem;
+    width: 28rem;
+}
+
+.sponsor_type {
+    color: red;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 0;
+    letter-spacing: .1rem;
+}
+
+/* end of sponsor */
+
+/* start of contact us */
+
+.contact_us-container {
+    background:black;
+}
+
+.contact--header {
+    text-align: center;
+    color:  #1c4c7c;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.contact--header h1 {
+    padding: 2rem 0 0 0;
+    margin-top: 0;
+    color: white;
+    font-size: 4rem;
+}
+
+.contact-name, .contact-contact, .contact-message{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact--submit {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-name__name {
+    flex-grow: 0;
+}
+
+input{
+    border: 0;
+    border: .2rem solid red;
+    font-size: 1.5rem;
+    margin: 1rem;
+    background: white;
+    width: 32rem;    
+}
+
+input:focus {
+    outline: 0;
+}
+
+textarea {
+    margin: 2rem;
+    width: 66rem;
+    background-color: white;
+    border-color: red;
+    border-width: .3rem;
+    border-style: solid;
+    height: 4rem;
+    font-size: 2rem;
+}
+
+.contact--submit {
+    padding-bottom: 2rem;
+}
+
+.contact--submit__validation {
+    color: white;
+    font-size: 1.2rem;
+    font-style: italic;
+}
+
+.contact--submit__validation a {
+    color: red;
+}
+
+.contact--submit__button button{
+    text-decoration: none;
+    font-size: 2rem;
+    border: 2px solid white;
+    margin: 1rem;
+    background: rgb(211, 9, 9);
+    cursor: pointer;
+    border-radius: .5rem;
+    color: white;
+}
+
+/* end of contact us */
+
+
+
+
+
+/* end of main */
+
+
+
+/* start of footer */
+
+footer {
+    /* margin: 0; */
+    background: black;
+}
+
+.footer_container {
+    border-top: 1rem solid red;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}   
+
+.footer_social ul li{
+    display: inline-block;
+}
+
+.footer_social ul {
+    text-align: center;
+}
+
+.footer_social ul li a i{
+    color: #fff;
+    text-shadow: 1px 1px 1px #ccc;
+    font-size: 2.5rem;
+    padding: 1.5rem;
+
+}
+
+.disclaimer {
+    width: 80%;
+    text-align: center; 
+    color: grey;
+    font-size: 1.1rem;
+    margin-bottom: 3rem;
+}
+
+/* end of footer */
+
+
+@media only screen and (max-width: 360px) {
+   
+    .brand h1 {
+        font-size: 4rem;
+    }
+
+    .brand h2 {
+        font-size: 2rem;
+    }
+
+    .team-achievement__image img {
+        width: 18rem;
+    }
+
+    #car{
+        height: 20rem;
+        position: relative;
+    }
+
+    .car--heading {
+        position: absolute;
+        top: 15rem;
+        right: 1rem;
+        font-size: 1.5rem;
+    }
+}
+
+
+@media only screen and (max-width: 415px) {
+
+    input {
+        width: 22rem;
+    }
+    
+    .brand h1 {
+        font-size: 6rem;
+    }
+
+    .brand h2 {
+        font-size: 3rem;
+    }
+
+    .team-achievement__image img {
+        width: 18rem;
+    }   
+
+    #car{
+        height: 25rem;
+        position: relative;        
+    }
+    .car--heading {
+        position: absolute;
+        top: 22rem;
+        right: 1rem;
+        font-size: 2rem;
+    }
+
+    .team--member img {
+        height: 18rem;
+    }
+
+    .about-f1__image a img {
+        height: 10rem;
+    }
+
+    .sponsor {
+        border: 2px solid red; 
+        margin: 1rem;
+        padding: 1rem;
+    }
+    
+    .sponsor img {
+        height: 16rem;
+        width: 18rem;
+    }    
+
+    input{
+        border: 0;
+        border: .2rem solid red;
+        font-size: 1.5rem;
+        margin: 1rem;
+        background: white;
+        width: 16rem;    
+    }
+        
+    textarea {
+        margin: 2rem;
+        width: 33rem;
+        background-color: white;
+        border-color: red;
+        border-width: .3rem;
+        border-style: solid;
+        height: 4rem;
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (min-width: 500px) {
+
+    input {
+        width: 28rem;
+    }
+    
+    .brand h1 {
+        font-size: 8rem;
+    }
+
+    .brand h2 {
+        font-size: 3.8rem;
+    }
+
+    #car{
+        height: 30rem;
+        position: relative;
+    }
+
+    .car--heading {
+        position: absolute;
+        top: 25rem;
+        right: 2rem;
+        font-size: 3rem;
+    }
+}
+
+
+@media only screen and (min-width: 600px) {
+
+    input {
+        width: 28rem;
+    }
+    
+    .brand h1 {
+        font-size: 12rem;
+    }
+
+    .brand h2 {
+        font-size: 6rem;
+    }
+
+    #car{
+        height: 40rem;
+        position: relative;
+    }
+
+    .car--heading {
+        position: absolute;
+        top: 34rem;
+        right: 4rem;
+        font-size: 3rem;
+    }
+}
+
